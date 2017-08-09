@@ -1,0 +1,12 @@
+{"menu": {
+  "drinks": [
+    {"coke": "20"},
+    {"pepsi": "20"},
+    {"water": "20"}
+  ],
+  "junk-food": [
+    {"hamburger": "40"},
+    {"fries": "20"},
+    {"pizza": "20"}
+  ]
+}}
