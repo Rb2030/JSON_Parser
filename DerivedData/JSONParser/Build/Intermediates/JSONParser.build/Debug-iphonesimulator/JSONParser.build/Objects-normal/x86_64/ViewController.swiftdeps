@@ -9,11 +9,14 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
 - !private "Bundle"
+- "CastingPrecedence"
 - !private "Data"
 - !private "JSONSerialization"
+- !private "String"
 - !private "StringLiteralType"
 - "UIViewController"
 - !private "URL"
+- !private "UnicodeScalarType"
 - "ViewController"
 - !private "print"
 depends-member:
@@ -40,9 +43,11 @@ depends-member:
 - !private ["Ps7CVarArg", "main"]
 - !private ["Ps7CVarArg", "path"]
 - !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "Bundle"]
 - !private ["Ps28CustomDebugStringConvertible", "Data"]
@@ -53,10 +58,12 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "main"]
 - !private ["Ps28CustomDebugStringConvertible", "path"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps23CustomStringConvertible", "Bundle"]
 - !private ["Ps23CustomStringConvertible", "Data"]
 - !private ["Ps23CustomStringConvertible", "JSONSerialization"]
@@ -66,9 +73,11 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "path"]
 - !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["V10Foundation4Data", "init"]
+- !private ["Vs10Dictionary", "subscript"]
 - !private ["Ps9Equatable", "Bundle"]
 - !private ["Ps9Equatable", "Data"]
 - !private ["Ps9Equatable", "JSONSerialization"]
@@ -82,6 +91,7 @@ depends-member:
 - !private ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "mutableContainers"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -121,6 +131,7 @@ depends-member:
 - !private ["CSo8NSObject", "Bundle"]
 - !private ["CSo8NSObject", "Data"]
 - !private ["CSo8NSObject", "JSONSerialization"]
+- !private ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "URL"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "jsonObject"]
@@ -148,6 +159,7 @@ depends-member:
 - !private ["VCSo17JSONSerialization14ReadingOptions", "mutableContainers"]
 - !private ["P10Foundation20ReferenceConvertible", "init"]
 - !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
 - !private ["Ps10SetAlgebra", "mutableContainers"]
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
@@ -179,6 +191,7 @@ depends-member:
 - !private ["CSo11UIResponder", "Bundle"]
 - !private ["CSo11UIResponder", "Data"]
 - !private ["CSo11UIResponder", "JSONSerialization"]
+- !private ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "URL"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "print"]
@@ -210,6 +223,7 @@ depends-member:
 - !private ["CSo16UIViewController", "Bundle"]
 - !private ["CSo16UIViewController", "Data"]
 - !private ["CSo16UIViewController", "JSONSerialization"]
+- !private ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "URL"]
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "print"]
@@ -219,6 +233,7 @@ depends-member:
 - !private ["C10JSONParser14ViewController", "Bundle"]
 - !private ["C10JSONParser14ViewController", "Data"]
 - !private ["C10JSONParser14ViewController", "JSONSerialization"]
+- !private ["C10JSONParser14ViewController", "String"]
 - !private ["C10JSONParser14ViewController", "URL"]
 - ["C10JSONParser14ViewController", "deinit"]
 - ["C10JSONParser14ViewController", "init"]
@@ -244,9 +259,12 @@ depends-member:
 - !private ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
 - !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
 - !private ["Ps17_MutableIndexable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
 - !private ["Ps22_RandomAccessIndexable", "init"]
 - !private ["Ps26_RangeReplaceableIndexable", "init"]
 depends-nominal:
@@ -261,8 +279,10 @@ depends-nominal:
 - !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - !private "V10Foundation4Data"
+- !private "Vs10Dictionary"
 - "Ps9Equatable"
 - !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"

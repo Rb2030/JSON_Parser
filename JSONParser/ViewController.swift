@@ -21,6 +21,17 @@ class ViewController: UIViewController {
             let data = try Data(contentsOf: url)
             let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
             print(json)
+            
+            guard let array = json as? [Any] else { return }
+            for user in array {
+                guard let userDict = user as? [String: Any] else { return }
+                guard let drinks = userDict["drinks"] as? String else { print("not an Int"); return }
+                guard let junkFood = userDict["junk-food"] as? String else { return }
+                
+                print(drinks)
+                print(junkFood)
+                print(" ")
+            }
         }
         catch {
             print(error)
