@@ -17,28 +17,21 @@ class ViewController: UIViewController {
         let url = URL(fileURLWithPath: path)
         
         do {
-            let data = try? Data(contentsOf: url)
-            let json = try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers)
+            
+            let data = try Data(contentsOf: url)
+            let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
             //print(json)
             
             guard let menuDict = json as? [String: Any] else { return }
+            //print(menuDict)
             
-            guard let drinks = menuDict["drinks"] as? [[String: Any]] else {
-                print("not an array of dictionaries")  return
-            }
-            
-            guard let junkFood = menuDict["junk-food"] as? [[String: Any]] else {
-                print("not an array of dictionaries") return
-            }
+            guard let drinks = menuDict["drinks"] as? [[String: Any]] else { return }
             print(drinks)
-            print(junkFood)
-            print(" ")
         }
-    }        catch {
+        catch {
             print(error)
         }
         
     }
-
+    
 }
-

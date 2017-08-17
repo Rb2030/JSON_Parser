@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "15755086394d5ecec23e08bcfae4f96a"
+build_time: [556276526, 997932000]
+inputs:
+  "/Users/Ross/Desktop/Swift Work/JSONParser/JSONParser/ViewController.swift": [556276526, 0]
+  "/Users/Ross/Desktop/Swift Work/JSONParser/JSONParser/AppDelegate.swift": [555600269, 0]
