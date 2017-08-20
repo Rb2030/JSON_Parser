@@ -1,0 +1,522 @@
+00:37:26.895 Xcode[3084:352963] Beginning test session JSON_to_dictUITests-07DCFC06-A9BA-483E-8870-F127388F2306 at 2017-08-21 00:37:26.894 with Xcode 8E3004b on target <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3.1 (14E8301))
+00:37:26.895 Xcode[3084:352963] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:37:26.895 Xcode[3084:983833] Sim iPhone 7 Plus: Unregistering for sim device notification with token 58
+00:37:26.895 Xcode[3084:983833] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+00:37:26.896 Xcode[3084:983833] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.uEioEb4OuT/com.apple.testmanagerd.unix-domain.socket
+00:37:26.896 Xcode[3084:983833] Validating test connection socket path (/private/tmp/com.apple.launchd.uEioEb4OuT/com.apple.testmanagerd.unix-domain.socket)
+00:37:26.896 Xcode[3084:983833] Constructing transport for test connection socket
+00:37:26.896 Xcode[3084:983833] Connected socket 89 to testmanagerd for Sim iPhone 7 Plus
+00:37:26.896 Xcode[3084:983833] Received connection for test runner session
+00:37:26.896 Xcode[3084:983833] Listening for proxy connection request from the test bundle
+00:37:26.896 Xcode[3084:983833] Initiating session with identifier: 07DCFC06-A9BA-483E-8870-F127388F2306
+00:37:26.915 Xcode[3084:352963] Received Ready from iOSSimulator
+00:37:26.915 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff09ac523f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:37:26.915 Xcode[3084:352963] Received Ready from iOSSimulator
+00:37:26.915 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b8832f00 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:37:26.943 Xcode[3084:352963] Test runner session acquired connection.
+00:37:26.943 Xcode[3084:352963] Waiting for test process to launch.
+00:37:27.113 Xcode[3084:982990] Got reply to session initiation request with identifier 07DCFC06-A9BA-483E-8870-F127388F2306 (result:error): 22: (null)
+00:37:30.358 Xcode[3084:352963] Launch session started.
+00:37:30.400 Xcode[3084:352963] Received Ready from iOSSimulator
+00:37:30.400 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b8b150a0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:37:30.402 Xcode[3084:352963] Adding console adaptor <IDEConsoleAdaptor: 0x7ff0b6fb3740 'target'> for test session 07DCFC06-A9BA-483E-8870-F127388F2306.
+00:37:30.407 Xcode[3084:984188] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 60
+00:37:30.410 Xcode[3084:984193] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 60
+00:37:30.412 Xcode[3084:982987] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dictUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.JSON_to_dictUITests-Runner";
+}
+00:37:30.419 Xcode[3084:352963] Received Ready from iOSSimulator
+00:37:30.419 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b691c7e0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:37:35.094 Xcode[3084:982987] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dictUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.JSON_to_dictUITests-Runner";
+}
+00:37:35.095 Xcode[3084:982987] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: com.apple.test.JSON_to_dictUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/07DCFC06-A9BA-483E-8870-F127388F2306/remote-container/tmp/JSON_to_dictUITests-07DCFC06-A9BA-483E-8870-F127388F2306.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 1;
+}
+00:37:35.132 Xcode[3084:984193] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: com.apple.test.JSON_to_dictUITests-Runner (pid = 9556)
+00:37:35.132 Xcode[3084:984193] Tracking pid 9556 for simulator <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+00:37:35.132 Xcode[3084:984193] Checking to see if pid 9556 is valid: kill(pid, 0) = 0 (YES, it's still running)
+00:37:35.133 Xcode[3084:984193] Setting up DVTTaskNotifyOnProcDeath for pid 9556
+00:37:35.133 Xcode[3084:352963] Test process runnable PID is 9556.
+00:37:36.934 Xcode[3084:352963] Waiting for test process to check in..., will wait up to 120s
+00:37:37.898 Xcode[3084:979489] Handling proxy channel request from test runner
+00:37:37.898 Xcode[3084:979489] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+00:37:37.898 Xcode[3084:352963] Test runner session successfully initiated.
+00:37:37.898 Xcode[3084:352963] Creating the daemon control session.
+00:37:37.898 Xcode[3084:352963] Whitelisting test process ID 9556
+00:37:37.898 Xcode[3084:352963] Got authorization request for pid 9556
+00:37:37.899 Xcode[3084:982990] Requesting authorization for pid 9556
+00:37:37.906 Xcode[3084:984188] Got reply to authorization request for pid 9556 (result:error): 22: (null)
+00:37:37.906 Xcode[3084:352963] Got whitelisting response from test daemon. Success: 1
+00:37:27.103 testmanagerd[9310:984062] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, modified on Thursday, May 11, 2017 at 6:05:42 AM British Summer Time
+00:37:27.105 testmanagerd[9310:984069] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+00:37:27.105 testmanagerd[9310:984062] Setting availability state.
+00:37:27.105 testmanagerd[9310:984069] Created session with socket 5
+00:37:27.106 testmanagerd[9310:984062] Posting availability to test bundles...
+00:37:27.108 testmanagerd[9310:984078] IDE connected over socket 7 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+00:37:27.109 testmanagerd[9310:984078] Created session with socket 7
+00:37:27.110 testmanagerd[9310:984075] Handled a proxy request from the IDE with session <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time proxy <_DTXProxy: 0x7f96c540c6c0>
+00:37:27.111 testmanagerd[9310:984078] Handled a proxy request from the IDE with session <XCIDESession: 0x7f96c570b410> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time proxy <_DTXProxy: 0x7f96c540b380>
+00:37:37.907 testmanagerd[9310:984062] Received request to collect crash reports in directories '/Users/Ross/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'JSON_to_dict', 'xctest', 'JSON_to_dictUITests-Runner', 'XCTRunner'
+00:37:27.112 testmanagerd[9310:984062] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD 1 7 from client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A (/Applications/Xcode.app)
+00:37:27.112 testmanagerd[9310:984062] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 07DCFC06-A9BA-483E-8870-F127388F2306 1 5 from client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A (/Applications/Xcode.app)
+00:37:27.113 testmanagerd[9310:984075] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f96c570b410> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD -> E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD
+00:37:27.114 testmanagerd[9310:984075] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+00:37:27.114 testmanagerd[9310:984075] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 07DCFC06-A9BA-483E-8870-F127388F2306 -> 07DCFC06-A9BA-483E-8870-F127388F2306
+00:37:37.909 testmanagerd[9310:984062] Initializing crash report observer for /Users/Ross/Library/Logs/DiagnosticReports
+00:37:27.116 testmanagerd[9310:984075] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+00:37:32.205 testmanagerd[9310:984075] Considering exiting:
+00:37:32.206 testmanagerd[9310:984075] Session summary: 0 test sessions, 2 sessions with identifiers, 0 unidentified sessions, does not have control session
+00:37:32.206 testmanagerd[9310:984075] Unpaired test sessions: {
+    "E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD" = "<XCIDESession: 0x7f96c570b410> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD";
+    "07DCFC06-A9BA-483E-8870-F127388F2306" = "<XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 07DCFC06-A9BA-483E-8870-F127388F2306";
+}
+00:37:37.771 testmanagerd[9310:984080] Received new test session connection from process with PID 9556
+00:37:37.777 testmanagerd[9310:984062] Initial orientation 0
+00:37:37.781 testmanagerd[9310:984080] Test session 07DCFC06-A9BA-483E-8870-F127388F2306 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+00:37:37.782 testmanagerd[9310:985148] Test session 07DCFC06-A9BA-483E-8870-F127388F2306 requested socket (-[XCTDaemon requestSocketForSessionIdentifier:reply:]_block_invoke)
+00:37:37.782 testmanagerd[9310:985148] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+00:37:37.910 testmanagerd[9310:984062] Getting files in /Users/Ross/Library/Logs/DiagnosticReports
+00:37:37.783 testmanagerd[9310:985148] Closing IDE connection before sending socket 9 to test host.
+00:37:37.783 testmanagerd[9310:985148] -[XCIDESession closeIDEConnection:] sending barrier
+00:37:37.784 testmanagerd[9310:984062] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+00:37:37.785 testmanagerd[9310:985148] DTXSocketTransport disconnected, owner is <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 07DCFC06-A9BA-483E-8870-F127388F2306
+00:37:37.787 testmanagerd[9310:985148] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 07DCFC06-A9BA-483E-8870-F127388F2306
+00:37:37.787 testmanagerd[9310:985148] Considering exiting:
+00:37:37.788 testmanagerd[9310:985148] Session summary: 1 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session
+00:37:37.915 testmanagerd[9310:984062] Found 17 files in /Users/Ross/Library/Logs/DiagnosticReports
+00:37:37.788 testmanagerd[9310:985148] Unpaired test sessions: {
+    "E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD" = "<XCIDESession: 0x7f96c570b410> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD";
+}
+00:37:37.789 testmanagerd[9310:985147] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.JSON_to_dictUITests-Runner";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 9556;
+    SBMostElevatedStateForProcessID = 8;
+}
+00:37:37.790 testmanagerd[9310:985147] Got request for process assertion for pid 9556.
+00:37:37.793 testmanagerd[9310:985148] Got reply for process assertion request, success: YES
+00:37:37.792 testmanagerd[9310:985147] Created process assertion for pid 9556: <BKSProcessAssertion: 0x7f96c54175e0>, waiting for response from assertiond.
+00:37:37.795 testmanagerd[9310:985147] Starting to monitor com.apple.test.JSON_to_dictUITests-Runner
+00:37:37.916 testmanagerd[9310:984062] Started monitoring /Users/Ross/Library/Logs/DiagnosticReports
+00:37:37.803 testmanagerd[9310:985148] Got application state update: com.apple.test.JSON_to_dictUITests-Runner (9556) -> 8
+00:37:37.894 testmanagerd[9310:984062] Sending socket 9 to test host
+00:37:37.919 testmanagerd[9310:984062] Initializing crash report observer for /Library/Logs/DiagnosticReports
+00:37:37.895 testmanagerd[9310:985147] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 07DCFC06-A9BA-483E-8870-F127388F2306
+00:37:37.898 testmanagerd[9310:985147] Considering exiting:
+00:37:37.899 testmanagerd[9310:985147] Session summary: 1 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session
+00:37:37.919 testmanagerd[9310:984062] Getting files in /Library/Logs/DiagnosticReports
+00:37:37.899 testmanagerd[9310:985148] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+00:37:37.900 testmanagerd[9310:985147] Unpaired test sessions: {
+    "E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD" = "<XCIDESession: 0x7f96c570b410> created Monday, August 21, 2017 at 12:37:27 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session E3FB1719-1867-47F5-A5AE-7AB08BEE0EAD";
+}
+00:37:37.900 testmanagerd[9310:985148] Created session with socket 6
+00:37:37.904 testmanagerd[9310:985149] Handled a proxy request from the IDE with session <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:37 AM British Summer Time proxy <_DTXProxy: 0x7f96c56193c0>
+00:37:37.904 testmanagerd[9310:985149] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 9556 22
+00:37:37.905 testmanagerd[9310:984062] Set control session <XCIDESession: 0x7f96c540a020> created Monday, August 21, 2017 at 12:37:37 AM British Summer Time with proto 22 and proxy <_DTXProxy: 0x7f96c56193c0>
+00:37:37.922 testmanagerd[9310:984062] Found 42 files in /Library/Logs/DiagnosticReports
+00:37:37.924 testmanagerd[9310:984062] Started monitoring /Library/Logs/DiagnosticReports
+00:37:37.767 XCTRunner[9556:984839] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0833(8E3002), modified on Thursday, May 11, 2017 at 6:10:51 AM British Summer Time
+00:37:37.768 XCTRunner[9556:984839] XCTest.framework bundle version: 12124
+00:37:37.770 XCTRunner[9556:984839] System uptime: 1d 2:51:41
+00:37:37.770 XCTRunner[9556:984839] Process arguments: (
+    "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Bundle/Application/E5C5CE40-EF98-490A-9F6D-ED13D2A756F7/JSON_to_dictUITests-Runner.app/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+00:37:37.770 XCTRunner[9556:984839] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/DE1E2384-03BE-4998-A598-B65768A57578";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.RQbaS8SaKl/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/DE1E2384-03BE-4998-A598-B65768A57578";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "IPHONE_SIMULATOR_CLASS" = D11;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/Ross";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/Ross/Library/Logs/CoreSimulator/F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D11;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E8301;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "SIMULATOR_UDID" = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 7 Plus - Runtime: iOS 10.3 (14E8301) - DeviceType: iPhone 7 Plus";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.uEioEb4OuT/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/DE1E2384-03BE-4998-A598-B65768A57578/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/07DCFC06-A9BA-483E-8870-F127388F2306/remote-container/tmp/JSON_to_dictUITests-07DCFC06-A9BA-483E-8870-F127388F2306.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.JSON_to_dictUITests-Runner[0x4092][8004]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+}
+00:37:37.771 XCTRunner[9556:984839] <XCTWaiter: 0x600000019440> entering wait loop for 5.00s
+00:37:37.779 XCTRunner[9556:985129] Got daemon protocol version 12
+00:37:37.779 XCTRunner[9556:985130] <XCTWaiter: 0x600000019440>: cancelWaiting
+00:37:37.779 XCTRunner[9556:984839] <XCTWaiter: 0x600000019440> done waiting
+00:37:37.779 XCTRunner[9556:984839] <XCTWaiter: 0x600000019440> cleaning up Exchange protocol versions with daemon
+00:37:37.780 XCTRunner[9556:984839] Requesting socket
+00:37:37.781 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f350> entering wait loop for 30.00s
+00:37:37.895 XCTRunner[9556:985129] <XCTWaiter: 0x60800000f350>: cancelWaiting
+00:37:37.896 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f350> done waiting
+00:37:37.896 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f350> cleaning up Socket for IDE session acquired
+00:37:37.896 XCTRunner[9556:984839] Creating transport with socket 7
+00:37:37.896 XCTRunner[9556:984839] Creating connection with transport <DTXSocketTransport: 0x60000010fff0>
+00:37:37.896 XCTRunner[9556:984839] Creating the proxy channel with connection <DTXConnection 0x6000001ea200 : x1>
+00:37:37.897 XCTRunner[9556:984839] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+00:37:37.897 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f3c0> entering wait loop for 30.00s
+00:37:37.900 XCTRunner[9556:985152] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+00:37:37.927 XCTRunner[9556:985130] _IDE_startExecutingTestPlanWithProtocolVersion:22
+00:37:37.927 XCTRunner[9556:985152] <XCTWaiter: 0x60800000f3c0>: cancelWaiting
+00:37:37.927 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f3c0> done waiting
+00:37:37.927 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f3c0> cleaning up IDE session ready for test plan
+00:37:37.933 Xcode[3084:352963] Starting test plan, clearing initialization timeout timer.
+00:37:37.932 XCTRunner[9556:984839] Initializing for UI testing.
+00:37:37.932 XCTRunner[9556:984839] <XCTWaiter: 0x600000019530> entering wait loop for 20.00s
+00:37:37.935 testmanagerd[9310:985155] Performing block with diagnostics...
+00:37:37.937 testmanagerd[9310:985155] Waiting 15.0s for AX to finish loading...
+00:37:37.940 testmanagerd[9310:985155] _AXSApplicationAccessibilityEnabled() returned false
+00:37:37.952 testmanagerd[9310:984062] AX is loaded
+00:37:37.959 testmanagerd[9310:985155] AXDisableAccessibilityOnTermination() returned 0
+00:37:37.962 testmanagerd[9310:985155] Created system wide AX element <AXUIElement 0x7f96c550c380> {pid=0}
+00:37:37.970 testmanagerd[9310:985155] Registered for accessibility notification 1021
+00:37:37.970 testmanagerd[9310:985155] Registered for accessibility notification 1000
+00:37:37.972 testmanagerd[9310:985155] Registered for accessibility notification 1005
+00:37:37.973 testmanagerd[9310:985155] Registered for accessibility notification 1001
+00:37:37.975 testmanagerd[9310:985155] Registered for accessibility notification 1011
+00:37:37.975 testmanagerd[9310:985155] Registered for accessibility notification 4002
+00:37:37.977 testmanagerd[9310:985155] Registered for accessibility notification 4000
+00:37:37.977 testmanagerd[9310:985155] Registered for accessibility notification 4001
+00:37:37.978 testmanagerd[9310:985155] Registered for accessibility notification 5000
+00:37:37.979 testmanagerd[9310:985155] Block succeeded, canceling diagnostics.
+00:37:38.052 XCTRunner[9556:985156] <XCTWaiter: 0x600000019530>: cancelWaiting
+00:37:38.052 XCTRunner[9556:984839] <XCTWaiter: 0x600000019530> done waiting
+00:37:38.052 XCTRunner[9556:984839] <XCTWaiter: 0x600000019530> cleaning up Expect predicate `BLOCKPREDICATE(0x608000056200)` for object BLOCKPREDICATE(0x608000056200)
+00:37:38.053 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f630> entering wait loop for 15.00s
+00:37:38.053 testmanagerd[9310:984077] AXUIElementSetMessagingTimeout(<AXUIElement 0x7f96c550c380> {pid=0}, 15) -> 0 
+00:37:38.075 XCTRunner[9556:985130] <XCTWaiter: 0x60800000f630>: cancelWaiting
+00:37:38.076 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.079 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:37:38.080 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.081 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:37:38.082 testmanagerd[9310:984062] AX Notification 1000
+00:37:38.082 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.084 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+00:37:38.254 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f630> done waiting
+00:37:38.254 XCTRunner[9556:984839] <XCTWaiter: 0x60800000f630> cleaning up Expect predicate `BLOCKPREDICATE(0x60800005ae20)` for object BLOCKPREDICATE(0x60800005ae20)
+00:37:38.255 XCTRunner[9556:984839] <XCTWaiter: 0x6080000100e0> entering wait loop for 15.00s
+00:37:38.255 testmanagerd[9310:985155] -[XCTDaemon allowUITestControlForPID:] 9556 vs 9556
+00:37:38.256 testmanagerd[9310:985155] Registered for AX notification 4002
+00:37:38.268 XCTRunner[9556:985152] <XCTWaiter: 0x6080000100e0>: cancelWaiting
+00:37:38.268 XCTRunner[9556:984839] <XCTWaiter: 0x6080000100e0> done waiting
+00:37:38.268 XCTRunner[9556:984839] <XCTWaiter: 0x6080000100e0> cleaning up Expect predicate `BLOCKPREDICATE(0x60800005b6f0)` for object BLOCKPREDICATE(0x60800005b6f0)
+00:37:38.268 XCTRunner[9556:984839] <XCTWaiter: 0x608000010220> entering wait loop for 15.00s
+00:37:38.268 testmanagerd[9310:984077] -[XCTDaemon allowUITestControlForPID:] 9556 vs 9556
+00:37:38.269 testmanagerd[9310:984077] Registered for AX notification 1006
+00:37:38.270 XCTRunner[9556:985130] <XCTWaiter: 0x608000010220>: cancelWaiting
+00:37:38.270 XCTRunner[9556:984839] <XCTWaiter: 0x608000010220> done waiting
+00:37:38.270 XCTRunner[9556:984839] <XCTWaiter: 0x608000010220> cleaning up Expect predicate `BLOCKPREDICATE(0x608000059cb0)` for object BLOCKPREDICATE(0x608000059cb0)
+00:37:38.270 XCTRunner[9556:984839] <XCTWaiter: 0x608000010320> entering wait loop for 15.00s
+00:37:38.270 testmanagerd[9310:985155] -[XCTDaemon allowUITestControlForPID:] 9556 vs 9556
+00:37:38.271 testmanagerd[9310:985155] Registered for AX notification 1021
+00:37:38.272 XCTRunner[9556:985152] <XCTWaiter: 0x608000010320>: cancelWaiting
+00:37:38.272 XCTRunner[9556:984839] <XCTWaiter: 0x608000010320> done waiting
+00:37:38.272 XCTRunner[9556:984839] <XCTWaiter: 0x608000010320> cleaning up Expect predicate `BLOCKPREDICATE(0x600000241a70)` for object BLOCKPREDICATE(0x600000241a70)
+00:37:38.272 XCTRunner[9556:984839] <XCTWaiter: 0x6080000103c0> entering wait loop for 30.00s
+00:37:38.272 testmanagerd[9310:985155] Got request for process assertion for pid 9556.
+00:37:38.273 testmanagerd[9310:985155] Invalidating previous process assertion for pid 9556.
+00:37:38.274 testmanagerd[9310:985155] Created process assertion for pid 9556: <BKSProcessAssertion: 0x7f96c561dbc0>, waiting for response from assertiond.
+00:37:38.275 testmanagerd[9310:984077] Got reply for process assertion request, success: YES
+00:37:38.276 XCTRunner[9556:985152] Got reply for background assertion for test process, acquired: YES.
+00:37:38.276 XCTRunner[9556:985157] <XCTWaiter: 0x6080000103c0>: cancelWaiting
+00:37:38.276 XCTRunner[9556:984839] <XCTWaiter: 0x6080000103c0> done waiting
+00:37:38.276 XCTRunner[9556:984839] <XCTWaiter: 0x6080000103c0> cleaning up Expect predicate `BLOCKPREDICATE(0x6080000594a0)` for object BLOCKPREDICATE(0x6080000594a0)
+00:37:38.276 XCTRunner[9556:984839] Registering for UIApplicationDidEnterBackgroundNotification
+00:37:38.276 XCTRunner[9556:984839] Hitting home button to enter background.
+00:37:38.276 XCTRunner[9556:984839] <XCTWaiter: 0x60000001a0d0> entering wait loop for 30.00s
+00:37:38.277 testmanagerd[9310:984077] -[XCTDaemon allowUITestControlForPID:] 9556 vs 9556
+00:37:38.277 testmanagerd[9310:984077] Performing <XCDeviceEvent:0x7f96c5513e10 page 12 usage 64 duration 0.01s
+00:37:38.280 testmanagerd[9310:985147] Sleeping for 0.005000s before sending up event
+00:37:38.285 testmanagerd[9310:985147] Waiting for device event confirmation.
+00:37:38.302 testmanagerd[9310:984062] AX Notification 1021
+00:37:38.305 XCTRunner[9556:985157] Got AX notification 1021
+00:37:38.306 XCTRunner[9556:985157] Got kAXPidStatusChangedNotification for 9556: active
+00:37:38.323 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.324 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:37:38.326 testmanagerd[9310:984062] AX Notification 1000
+00:37:38.326 testmanagerd[9310:984062] AX Notification 1000
+00:37:38.327 XCTRunner[9556:985157] Got AX notification 4002
+00:37:38.327 testmanagerd[9310:984062] AX Notification 1000
+00:37:38.329 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.330 testmanagerd[9310:984062] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+00:37:38.331 testmanagerd[9310:984062] Signaling device event confirmed by AX notification.
+00:37:38.331 testmanagerd[9310:985147] Gesture complete, replying to client.
+00:37:38.332 XCTRunner[9556:985157] Got AX notification 4002
+00:37:38.333 XCTRunner[9556:984839] No application process found matching pid 9556, caching
+00:37:38.333 XCTRunner[9556:985158] <XCTWaiter: 0x60000001a0d0>: cancelWaiting
+00:37:38.333 XCTRunner[9556:984839] <XCTWaiter: 0x60000001a0d0> done waiting
+00:37:38.333 XCTRunner[9556:984839] <XCTWaiter: 0x60000001a0d0> cleaning up Expect predicate `BLOCKPREDICATE(0x60800024b8e0)` for object BLOCKPREDICATE(0x60800024b8e0)
+00:37:38.333 XCTRunner[9556:984839] <XCTWaiter: 0x60000001a180> entering wait loop for 30.00s
+00:37:38.331 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.334 XCTRunner[9556:985156] Got AX notification 4002
+00:37:38.334 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidAppear;
+}
+00:37:38.602 testmanagerd[9310:984062] AX Notification 1011
+00:37:38.739 XCTRunner[9556:984839] Got UIApplicationDidEnterBackgroundNotification
+00:37:38.739 XCTRunner[9556:985156] <XCTWaiter: 0x60000001a180>: cancelWaiting
+00:37:38.735 testmanagerd[9310:985147] Got application state update: com.apple.test.JSON_to_dictUITests-Runner (9556) -> 4
+00:37:38.773 XCTRunner[9556:985132] Got AX notification 4002
+00:37:38.760 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.773 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBAppContainerViewController;
+    event = ViewDidDisappear;
+}
+00:37:38.776 testmanagerd[9310:984062] AX Notification 1021
+00:37:38.777 XCTRunner[9556:985132] Got AX notification 1021
+00:37:38.777 XCTRunner[9556:985132] Got kAXPidStatusChangedNotification for 9556: suspended
+00:37:38.777 testmanagerd[9310:984062] AX Notification 4002
+00:37:38.779 XCTRunner[9556:985132] Got AX notification 4002
+00:37:38.779 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:37:38.820 XCTRunner[9556:984839] <XCTWaiter: 0x60000001a180> done waiting
+00:37:38.837 testmanagerd[9310:984062] AX Notification 1011
+00:37:38.820 XCTRunner[9556:984839] <XCTWaiter: 0x60000001a180> cleaning up Expect predicate `BLOCKPREDICATE(0x608000058a20)` for object BLOCKPREDICATE(0x608000058a20)
+00:37:38.820 XCTRunner[9556:984839] Done initializing for UI testing.
+00:37:38.820 XCTRunner[9556:984839] Loading test suite...
+00:37:38.874 XCTRunner[9556:984839] Finished loading test suite, took 0.055s
+00:37:38.874 XCTRunner[9556:984839] -[XCTRunnerIDESession testBundleWillStart:]
+00:37:38.875 XCTRunner[9556:984839] Running suite...
+00:37:38.875 XCTRunner[9556:984839] -[XCTRunnerIDESession testSuiteWillStart:]
+00:37:38.876 Xcode[3084:352963] _XCT_testSuite:All tests didStartAt:2017-08-20 23:37:38 +0000
+00:37:42.874 Xcode[3084:984191] (LOG ARBITER) Rotating message buffer with 272 messages.
+00:37:45.352 Xcode[3084:984189] (LOG ARBITER) Rotating message buffer with 121 messages.
+00:37:47.533 Xcode[3084:982990] (LOG ARBITER) Dumping buffered message data; 393 messages.
+00:37:46.048 testmanagerd[9310:984062] AX Notification 5000
+00:37:46.052 testmanagerd[9310:984062] AX Notification 1021
+00:37:46.052 XCTRunner[9556:985158] Got AX notification 1021
+00:37:46.052 XCTRunner[9556:985158] Got kAXPidStatusChangedNotification for 9565: active
+00:37:46.054 testmanagerd[9310:984062] AX Notification 1021
+00:37:46.054 XCTRunner[9556:985158] Got AX notification 1021
+00:37:46.054 XCTRunner[9556:985158] Got kAXPidStatusChangedNotification for 9565: active
+00:37:46.178 testmanagerd[9310:984062] AX Notification 4002
+00:37:46.178 XCTRunner[9556:985152] Got AX notification 4002
+00:37:46.178 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = UIViewController;
+    event = ViewDidAppear;
+}
+00:37:46.212 testmanagerd[9310:984077] 9 retries communicating with AX server
+00:37:46.212 testmanagerd[9310:984062] AX Notification 4002
+00:37:46.213 testmanagerd[9310:984077] Performed AXAction 2043 for pid 9565
+00:37:46.214 testmanagerd[9310:984077] -[XCTDaemon allowUITestControlForPID:] 9556 vs 9556
+00:37:46.214 testmanagerd[9310:984062] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+00:37:46.214 XCTRunner[9556:985152] Got AX notification 4002
+00:37:46.215 XCTRunner[9556:985152] Got animations reply.
+00:37:46.215 testmanagerd[9310:984077] Got AXElement for <XCAccessibilityElement: 0x7f96c5627b60> Device element: <AXUIElement 0x7f96c5622b00> {pid=9565}
+00:37:46.215 XCTRunner[9556:985152] Animations are not active.
+00:37:46.215 XCTRunner[9556:985152] <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)> hasReceivedAnimationsHaveFinished 0 -> 1
+00:37:46.216 XCTRunner[9556:985152] <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)> animationsHaveFinished 0 -> 1
+00:37:46.216 testmanagerd[9310:984077] Performed AXAction 2042 for pid 9565
+00:37:46.217 testmanagerd[9310:984062] AX Notification 4002
+00:37:46.218 XCTRunner[9556:985157] Got AX notification 4002
+00:37:46.218 XCTRunner[9556:985157] Got event loop idle reply.
+00:37:46.218 XCTRunner[9556:985157] Event loop is idle.
+00:37:46.218 XCTRunner[9556:985156] <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)> hasReceivedEventLoopHasIdled 0 -> 1
+00:37:46.218 XCTRunner[9556:985156] <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)> eventLoopHasIdled 0 -> 1
+00:37:46.219 XCTRunner[9556:985158] <XCTWaiter: 0x60000001abe0>: cancelWaiting
+00:37:46.219 XCTRunner[9556:984839] <XCTWaiter: 0x60000001abe0> done waiting
+00:37:46.219 XCTRunner[9556:984839] <XCTWaiter: 0x60000001abe0> cleaning up Expect predicate `BLOCKPREDICATE(0x60800005ce30)` for object BLOCKPREDICATE(0x60800005ce30)
+00:37:46.219 XCTRunner[9556:984839] Waiting on quiescence reply indicators
+00:37:46.219 XCTRunner[9556:984839] <XCTWaiter: 0x608000011040> entering wait loop for 60.00s
+00:37:46.218 testmanagerd[9310:984062] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+00:37:46.319 XCTRunner[9556:985157] <XCTWaiter: 0x608000011040>: cancelWaiting
+00:37:46.320 XCTRunner[9556:984839] <XCTWaiter: 0x608000011040> done waiting
+00:37:46.320 XCTRunner[9556:984839] <XCTWaiter: 0x608000011040> cleaning up Expect predicate `BLOCKPREDICATE(0x600000246db0)` for object BLOCKPREDICATE(0x600000246db0)
+00:37:46.320 XCTRunner[9556:984839] App has quiesced or quiescence timeout has elapsed.
+00:37:46.320 XCTRunner[9556:984839] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000002a84c0> 2017-08-20 23:37:44 +0000: Wait for app to idle (2.06923s)
+00:37:46.325 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity 6F3F76E2-1B3A-4C97-A511-50FDC586212A:'Wait for app to idle'
+00:37:46.324 XCTRunner[9556:984839] Delaying 1s to mitigate rdar://problem/29883788 & <rdar://problem/23764033> UI tests failing in sim because splash screen is occluding the elements that the tests are trying to interact with
+00:37:46.476 testmanagerd[9310:984062] AX Notification 4002
+00:37:46.477 XCTRunner[9556:985158] Got AX notification 4002
+00:37:46.476 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:37:46.477 testmanagerd[9310:984062] AX Notification 4002
+00:37:46.478 XCTRunner[9556:985130] Got AX notification 4002
+00:37:46.478 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:37:46.479 testmanagerd[9310:984062] AX Notification 1000
+00:37:46.479 testmanagerd[9310:984062] AX Notification 4002
+00:37:46.480 XCTRunner[9556:985130] Got AX notification 4002
+00:37:46.480 testmanagerd[9310:984062] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+00:37:46.968 testmanagerd[9310:984062] AX Notification 1011
+00:37:47.325 XCTRunner[9556:984839] done launching and has quiesced
+00:37:47.325 XCTRunner[9556:984839] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000002a21c0> 2017-08-20 23:37:38 +0000: Launch uk.co.training.JSON-to-dict (8.44118s)
+00:37:47.329 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity E0C07C18-8824-41DC-8742-33B8C30A33BF:'Launch uk.co.training.JSON-to-dict'
+00:37:47.328 XCTRunner[9556:984839] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000002a41a0> 2017-08-20 23:37:38 +0000: Set Up (8.44867s)
+00:37:47.332 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity A30626B6-17F2-437B-BE58-18CF9831DCED:'Set Up'
+00:37:47.328 XCTRunner[9556:984839] -[JSON_to_dictUITests testExample] started activity <XCActivityRecord: 0x6000002a41a0> 2017-08-20 23:37:47 +0000: Tear Down
+00:37:47.332 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] will start activity 72B049E9-1C6C-47D9-BF6C-89CB75308325:'Tear Down'
+00:37:47.329 XCTRunner[9556:984839] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000002a41a0> 2017-08-20 23:37:47 +0000: Tear Down (0.000629961s)
+00:37:47.332 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity 72B049E9-1C6C-47D9-BF6C-89CB75308325:'Tear Down'
+00:37:47.330 XCTRunner[9556:985130] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)>
+00:37:47.330 XCTRunner[9556:984839] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)>
+00:37:47.330 XCTRunner[9556:984839] <XCTWaiter: 0x60800000ed70> entering wait loop for 0.20s
+00:37:47.532 XCTRunner[9556:984839] <XCTWaiter: 0x60800000ed70> done waiting
+00:37:47.532 XCTRunner[9556:984839] <XCTWaiter: 0x60800000ed70> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6080002a19e0 uk.co.training.JSON-to-dict (9565)>
+00:37:47.532 XCTRunner[9556:984839] Monitor: done waiting for state changes to launched application(s)
+    t =     0.00s     Start Test at 2017-08-21 00:37:38.876
+    t =     0.00s     Set Up
+    t =     0.01s         Launch uk.co.training.JSON-to-dict
+    t =     5.37s             Wait for app to idle
+    t =     8.45s     Tear Down
+Test Case '-[JSON_to_dictUITests.JSON_to_dictUITests testExample]' passed (8.656 seconds).
+00:37:47.533 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:JSON_to_dictUITests.JSON_to_dictUITests method:testExample withStatus:passed duration:8.656111001968384
+00:37:47.532 XCTRunner[9556:984839] -[XCTRunnerIDESession testCaseDidFinish:]
+Test Suite 'JSON_to_dictUITests' passed at 2017-08-21 00:37:47.533.
+	 Executed 1 test, with 0 failures (0 unexpected) in 8.656 (8.657) seconds
+Test Suite 'JSON_to_dictUITests.xctest' passed at 2017-08-21 00:37:47.533.
+	 Executed 1 test, with 0 failures (0 unexpected) in 8.656 (8.658) seconds
+00:37:47.533 XCTRunner[9556:984839] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:37:47.535 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictUITests didFinishAt:2017-08-20 23:37:47 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:8.656111001968384 totalDuration:8.656863987445831
+00:37:47.533 XCTRunner[9556:984839] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:37:47.535 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictUITests.xctest didFinishAt:2017-08-20 23:37:47 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:8.656111001968384 totalDuration:8.657719969749451
+00:37:47.534 XCTRunner[9556:984839] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:37:47.535 Xcode[3084:352963] _XCT_testSuite:All tests didFinishAt:2017-08-20 23:37:47 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:8.656111001968384 totalDuration:8.65905499458313
+00:37:47.534 XCTRunner[9556:984839] Finished running suite.
+00:37:47.535 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+00:37:47.534 XCTRunner[9556:984839] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+00:37:47.534 XCTRunner[9556:984839] Calling completion.
+00:37:47.534 XCTRunner[9556:984839] <XCTWaiter: 0x608000010680> entering wait loop for 15.00s
+00:37:47.535 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.536 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.537 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.537 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.537 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.550 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.550 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.551 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.602 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+00:37:47.641 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b89c4150: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b8b694b0: subtrackers=none>"
+)> is not finished
+Test Suite 'All tests' passed at 2017-08-21 00:37:47.534.
+	 Executed 1 test, with 0 failures (0 unexpected) in 8.656 (8.659) seconds
+00:37:47.697 Xcode[3084:352963] Observed termination of tracker for token 11 for launch of uk.co.training.JSON-to-dict at /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app
+00:37:47.697 Xcode[3084:352963] _finishWithError:(null) didCancel: 0

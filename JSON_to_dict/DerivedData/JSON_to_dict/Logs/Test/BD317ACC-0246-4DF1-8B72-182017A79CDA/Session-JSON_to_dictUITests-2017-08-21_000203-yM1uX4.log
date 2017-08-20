@@ -1,0 +1,1666 @@
+00:02:03.024 Xcode[3084:352963] Beginning test session JSON_to_dictUITests-79E23E8D-78E6-4A97-B1F1-D76046D94A41 at 2017-08-21 00:02:03.024 with Xcode 8E3004b on target <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3.1 (14E8301))
+00:02:03.024 Xcode[3084:352963] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+00:02:03.456 Xcode[3084:352963] Received Ready from iOSSimulator
+00:02:03.456 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b4eb2a40 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:02:03.456 Xcode[3084:352963] Received Ready from iOSSimulator
+00:02:03.456 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b48de170 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:02:03.469 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.469 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.469 Xcode[3084:938059] Got a sim device notification for iPhone 7 Plus: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.469 Xcode[3084:938059] Sim iPhone 7 Plus state changed to 2
+00:02:03.469 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.469 Xcode[3084:938059] Got a sim device notification for iPhone 7 Plus: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.469 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.469 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:938299] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:938059] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.470 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.471 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.472 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.473 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.474 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.475 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.476 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.476 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.476 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b692b180>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:03.581 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.585 Xcode[3084:938300] Got a sim device notification for iPhone 7 Plus: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.586 Xcode[3084:938300] Sim iPhone 7 Plus state changed to 3
+00:02:03.586 Xcode[3084:938300] Sim iPhone 7 Plus: Unregistering for sim device notification with token 29
+00:02:03.586 Xcode[3084:938300] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+00:02:03.588 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.588 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.588 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.588 Xcode[3084:938063] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.589 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.590 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.590 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.590 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.590 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.590 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.591 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.592 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.592 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+00:02:03.683 Xcode[3084:938300] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.uEioEb4OuT/com.apple.testmanagerd.unix-domain.socket
+00:02:03.684 Xcode[3084:938300] Validating test connection socket path (/private/tmp/com.apple.launchd.uEioEb4OuT/com.apple.testmanagerd.unix-domain.socket)
+00:02:03.684 Xcode[3084:938300] Constructing transport for test connection socket
+00:02:03.684 Xcode[3084:938300] Connected socket 90 to testmanagerd for Sim iPhone 7 Plus
+00:02:03.685 Xcode[3084:938300] Received connection for test runner session
+00:02:03.685 Xcode[3084:938300] Listening for proxy connection request from the test bundle
+00:02:03.686 Xcode[3084:352963] Test runner session acquired connection.
+00:02:03.686 Xcode[3084:352963] Waiting for test process to launch.
+00:02:03.686 Xcode[3084:938300] Initiating session with identifier: 79E23E8D-78E6-4A97-B1F1-D76046D94A41
+00:02:06.014 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.014 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:938358] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.015 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.016 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.017 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:06.018 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b7175340>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:11.620 Xcode[3084:938299] Got reply to session initiation request with identifier 79E23E8D-78E6-4A97-B1F1-D76046D94A41 (result:error): 22: (null)
+00:02:16.103 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.105 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.104 Xcode[3084:939522] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.105 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.105 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.105 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.105 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.105 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.106 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.107 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.107 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.107 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.107 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:16.107 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6a9f200>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.086 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.087 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.087 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.087 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.088 Xcode[3084:939963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.089 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.089 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.089 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.089 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.090 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.090 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.090 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.090 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.090 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.090 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.091 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.091 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.091 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.091 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.091 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:18.091 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e8c150>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:19.419 Xcode[3084:352963] Launch session started.
+00:02:19.500 Xcode[3084:352963] Received Ready from iOSSimulator
+00:02:19.500 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b6a8dda0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:02:19.504 Xcode[3084:352963] Adding console adaptor <IDEConsoleAdaptor: 0x7ff0b8868dc0 'target'> for test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41.
+00:02:20.328 Xcode[3084:939485] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 31
+00:02:20.330 Xcode[3084:352963] Received Ready from iOSSimulator
+00:02:20.330 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b695d8f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:02:20.330 Xcode[3084:935163] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 31
+00:02:20.333 Xcode[3084:935163] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dictUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.JSON_to_dictUITests-Runner";
+}
+00:02:30.070 Xcode[3084:935163] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dictUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.JSON_to_dictUITests-Runner";
+}
+00:02:30.072 Xcode[3084:352963] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Received sim device notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.073 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.073 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.073 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.075 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.075 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.075 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.075 Xcode[3084:939964] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.075 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.075 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.076 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.077 Xcode[3084:352963] /Users/Ross/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    "SimDeviceNotification_NewBootStatus" = "<SimDeviceBootInfo: 0x7ff0b6e3feb0>";
+    "SimDeviceNotification_PreviousBootStatus" = "<SimDeviceBootInfo: 0x7ff0afc20050>";
+    device = "SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }";
+    notification = "SimDeviceNotificationType_BootStatus";
+}
+00:02:30.079 Xcode[3084:935163] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 32
+00:02:30.080 Xcode[3084:939947] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 32
+00:02:30.080 Xcode[3084:352963] Received Ready from iOSSimulator
+00:02:30.080 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b7332160 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+00:02:30.589 Xcode[3084:935163] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: com.apple.test.JSON_to_dictUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/79E23E8D-78E6-4A97-B1F1-D76046D94A41/remote-container/tmp/JSON_to_dictUITests-79E23E8D-78E6-4A97-B1F1-D76046D94A41.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 1;
+}
+00:02:30.681 Xcode[3084:941274] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: com.apple.test.JSON_to_dictUITests-Runner (pid = 8320)
+00:02:30.681 Xcode[3084:941274] Tracking pid 8320 for simulator <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+00:02:30.682 Xcode[3084:941274] Checking to see if pid 8320 is valid: kill(pid, 0) = 0 (YES, it's still running)
+00:02:30.682 Xcode[3084:941274] Setting up DVTTaskNotifyOnProcDeath for pid 8320
+00:02:30.682 Xcode[3084:352963] Test process runnable PID is 8320.
+00:02:32.599 Xcode[3084:352963] Waiting for test process to check in..., will wait up to 120s
+00:02:33.679 Xcode[3084:939947] Handling proxy channel request from test runner
+00:02:33.680 Xcode[3084:939947] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+00:02:33.680 Xcode[3084:352963] Test runner session successfully initiated.
+00:02:33.680 Xcode[3084:352963] Creating the daemon control session.
+00:02:33.680 Xcode[3084:352963] Whitelisting test process ID 8320
+00:02:33.680 Xcode[3084:352963] Got authorization request for pid 8320
+00:02:33.681 Xcode[3084:939485] Requesting authorization for pid 8320
+00:02:33.686 Xcode[3084:941274] Got reply to authorization request for pid 8320 (result:error): 22: (null)
+00:02:33.686 Xcode[3084:352963] Got whitelisting response from test daemon. Success: 1
+00:02:11.393 testmanagerd[8010:938459] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, modified on Thursday, May 11, 2017 at 6:05:42 AM British Summer Time
+00:02:11.603 testmanagerd[8010:939148] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+00:02:11.603 testmanagerd[8010:939148] Created session with socket 5
+00:02:11.603 testmanagerd[8010:938459] Setting availability state.
+00:02:11.605 testmanagerd[8010:938459] Posting availability to test bundles...
+00:02:11.609 testmanagerd[8010:939154] IDE connected over socket 7 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+00:02:11.610 testmanagerd[8010:939154] Created session with socket 7
+00:02:11.612 testmanagerd[8010:939158] Handled a proxy request from the IDE with session <XCIDESession: 0x7f82ec7095c0> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time proxy <_DTXProxy: 0x7f82ec41d3e0>
+00:02:11.612 testmanagerd[8010:939148] Handled a proxy request from the IDE with session <XCIDESession: 0x7f82ec607410> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time proxy <_DTXProxy: 0x7f82ec703140>
+00:02:11.616 testmanagerd[8010:938459] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 4C6335B8-6901-4CB0-818C-6CC26853CA84 1 7 from client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A (/Applications/Xcode.app)
+00:02:11.618 testmanagerd[8010:938459] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 79E23E8D-78E6-4A97-B1F1-D76046D94A41 1 5 from client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A (/Applications/Xcode.app)
+00:02:11.618 testmanagerd[8010:939148] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f82ec7095c0> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 4C6335B8-6901-4CB0-818C-6CC26853CA84 -> 4C6335B8-6901-4CB0-818C-6CC26853CA84
+00:02:11.621 testmanagerd[8010:939148] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+00:02:11.621 testmanagerd[8010:939148] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7f82ec607410> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41 -> 79E23E8D-78E6-4A97-B1F1-D76046D94A41
+00:02:11.622 testmanagerd[8010:939148] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+00:02:16.779 testmanagerd[8010:939148] Considering exiting:
+00:02:19.117 testmanagerd[8010:939148] Session summary: 0 test sessions, 2 sessions with identifiers, 0 unidentified sessions, does not have control session
+00:02:19.119 testmanagerd[8010:939148] Unpaired test sessions: {
+    "79E23E8D-78E6-4A97-B1F1-D76046D94A41" = "<XCIDESession: 0x7f82ec607410> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41";
+    "4C6335B8-6901-4CB0-818C-6CC26853CA84" = "<XCIDESession: 0x7f82ec7095c0> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 4C6335B8-6901-4CB0-818C-6CC26853CA84";
+}
+00:02:33.543 testmanagerd[8010:939153] Received new test session connection from process with PID 8320
+00:02:33.562 testmanagerd[8010:938459] Initial orientation 0
+00:02:33.566 testmanagerd[8010:939153] Test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+00:02:33.566 testmanagerd[8010:941364] Test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41 requested socket (-[XCTDaemon requestSocketForSessionIdentifier:reply:]_block_invoke)
+00:02:33.567 testmanagerd[8010:941364] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+00:02:33.567 testmanagerd[8010:941364] Closing IDE connection before sending socket 9 to test host.
+00:02:33.567 testmanagerd[8010:941364] -[XCIDESession closeIDEConnection:] sending barrier
+00:02:33.567 testmanagerd[8010:938459] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+00:02:33.568 testmanagerd[8010:941364] DTXSocketTransport disconnected, owner is <XCIDESession: 0x7f82ec607410> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41
+00:02:33.569 testmanagerd[8010:941364] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f82ec607410> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41
+00:02:33.569 testmanagerd[8010:941364] Considering exiting:
+00:02:33.569 testmanagerd[8010:941364] Session summary: 1 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session
+00:02:33.570 testmanagerd[8010:941364] Unpaired test sessions: {
+    "4C6335B8-6901-4CB0-818C-6CC26853CA84" = "<XCIDESession: 0x7f82ec7095c0> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 4C6335B8-6901-4CB0-818C-6CC26853CA84";
+}
+00:02:33.569 testmanagerd[8010:941367] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.apple.test.JSON_to_dictUITests-Runner";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 8320;
+    SBMostElevatedStateForProcessID = 8;
+}
+00:02:33.571 testmanagerd[8010:941367] Got request for process assertion for pid 8320.
+00:02:33.572 testmanagerd[8010:941367] Created process assertion for pid 8320: <BKSProcessAssertion: 0x7f82ec423870>, waiting for response from assertiond.
+00:02:33.574 testmanagerd[8010:941364] Got reply for process assertion request, success: YES
+00:02:33.573 testmanagerd[8010:941367] Starting to monitor com.apple.test.JSON_to_dictUITests-Runner
+00:02:33.576 testmanagerd[8010:941367] Got application state update: com.apple.test.JSON_to_dictUITests-Runner (8320) -> 8
+00:02:33.687 testmanagerd[8010:938459] Received request to collect crash reports in directories '/Users/Ross/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'JSON_to_dict', 'xctest', 'JSON_to_dictUITests-Runner', 'XCTRunner'
+00:02:33.675 testmanagerd[8010:938459] Sending socket 9 to test host
+00:02:33.676 testmanagerd[8010:939153] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7f82ec607410> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 79E23E8D-78E6-4A97-B1F1-D76046D94A41
+00:02:33.676 testmanagerd[8010:939153] Considering exiting:
+00:02:33.677 testmanagerd[8010:939153] Session summary: 1 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session
+00:02:33.677 testmanagerd[8010:939153] Unpaired test sessions: {
+    "4C6335B8-6901-4CB0-818C-6CC26853CA84" = "<XCIDESession: 0x7f82ec7095c0> created Monday, August 21, 2017 at 12:02:11 AM British Summer Time for client 32148B58-B93C-4470-8D4F-93F75B82FC2D-3084-00003B4BADD3A54A waiting to pair with test session 4C6335B8-6901-4CB0-818C-6CC26853CA84";
+}
+00:02:33.681 testmanagerd[8010:939153] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+00:02:33.681 testmanagerd[8010:939153] Created session with socket 6
+00:02:33.683 testmanagerd[8010:939155] Handled a proxy request from the IDE with session <XCIDESession: 0x7f82ec70b5c0> created Monday, August 21, 2017 at 12:02:33 AM British Summer Time proxy <_DTXProxy: 0x7f82ec41f140>
+00:02:33.684 testmanagerd[8010:939155] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 8320 22
+00:02:33.685 testmanagerd[8010:938459] Set control session <XCIDESession: 0x7f82ec70b5c0> created Monday, August 21, 2017 at 12:02:33 AM British Summer Time with proto 22 and proxy <_DTXProxy: 0x7f82ec41f140>
+00:02:33.736 testmanagerd[8010:938459] Initializing crash report observer for /Users/Ross/Library/Logs/DiagnosticReports
+00:02:33.738 testmanagerd[8010:938459] Getting files in /Users/Ross/Library/Logs/DiagnosticReports
+00:02:33.881 testmanagerd[8010:938459] Found 17 files in /Users/Ross/Library/Logs/DiagnosticReports
+00:02:33.885 testmanagerd[8010:938459] Started monitoring /Users/Ross/Library/Logs/DiagnosticReports
+00:02:33.889 testmanagerd[8010:938459] Initializing crash report observer for /Library/Logs/DiagnosticReports
+00:02:33.890 testmanagerd[8010:938459] Getting files in /Library/Logs/DiagnosticReports
+00:02:34.140 testmanagerd[8010:938459] Found 42 files in /Library/Logs/DiagnosticReports
+00:02:34.141 testmanagerd[8010:938459] Started monitoring /Library/Logs/DiagnosticReports
+00:02:33.513 XCTRunner[8320:941287] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0833(8E3002), modified on Thursday, May 11, 2017 at 6:10:51 AM British Summer Time
+00:02:33.515 XCTRunner[8320:941287] XCTest.framework bundle version: 12124
+00:02:33.518 XCTRunner[8320:941287] System uptime: 1d 2:16:37
+00:02:33.518 XCTRunner[8320:941287] Process arguments: (
+    "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Bundle/Application/D23373D7-C66C-4C39-801B-E8D127A62411/JSON_to_dictUITests-Runner.app/XCTRunner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+00:02:33.519 XCTRunner[8320:941287] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/EDBC2540-018C-4622-BD18-9A4156AF97D7";
+    CLASSIC = 1;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.RQbaS8SaKl/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/EDBC2540-018C-4622-BD18-9A4156AF97D7";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "IPHONE_SIMULATOR_CLASS" = D11;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/Ross";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/Ross/Library/Logs/CoreSimulator/F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D11;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E8301;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "SIMULATOR_UDID" = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 7 Plus - Runtime: iOS 10.3 (14E8301) - DeviceType: iPhone 7 Plus";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.uEioEb4OuT/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/EDBC2540-018C-4622-BD18-9A4156AF97D7/tmp";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/79E23E8D-78E6-4A97-B1F1-D76046D94A41/remote-container/tmp/JSON_to_dictUITests-79E23E8D-78E6-4A97-B1F1-D76046D94A41.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.JSON_to_dictUITests-Runner[0x7f71][8004]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+}
+00:02:33.529 XCTRunner[8320:941287] <XCTWaiter: 0x608000012060> entering wait loop for 5.00s
+00:02:33.565 XCTRunner[8320:941347] Got daemon protocol version 12
+00:02:33.565 XCTRunner[8320:941350] <XCTWaiter: 0x608000012060>: cancelWaiting
+00:02:33.565 XCTRunner[8320:941287] <XCTWaiter: 0x608000012060> done waiting
+00:02:33.565 XCTRunner[8320:941287] <XCTWaiter: 0x608000012060> cleaning up Exchange protocol versions with daemon
+00:02:33.566 XCTRunner[8320:941287] Requesting socket
+00:02:33.566 XCTRunner[8320:941287] <XCTWaiter: 0x600000011740> entering wait loop for 30.00s
+00:02:33.676 XCTRunner[8320:941348] <XCTWaiter: 0x600000011740>: cancelWaiting
+00:02:33.676 XCTRunner[8320:941287] <XCTWaiter: 0x600000011740> done waiting
+00:02:33.676 XCTRunner[8320:941287] <XCTWaiter: 0x600000011740> cleaning up Socket for IDE session acquired
+00:02:33.676 XCTRunner[8320:941287] Creating transport with socket 7
+00:02:33.676 XCTRunner[8320:941287] Creating connection with transport <DTXSocketTransport: 0x60800011fa40>
+00:02:33.678 XCTRunner[8320:941287] Creating the proxy channel with connection <DTXConnection 0x6080001f3400 : x1>
+00:02:33.679 XCTRunner[8320:941287] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+00:02:33.679 XCTRunner[8320:941287] <XCTWaiter: 0x608000012140> entering wait loop for 30.00s
+00:02:33.680 XCTRunner[8320:941350] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+00:02:34.143 XCTRunner[8320:941347] _IDE_startExecutingTestPlanWithProtocolVersion:22
+00:02:34.143 XCTRunner[8320:941372] <XCTWaiter: 0x608000012140>: cancelWaiting
+00:02:34.143 XCTRunner[8320:941287] <XCTWaiter: 0x608000012140> done waiting
+00:02:34.143 XCTRunner[8320:941287] <XCTWaiter: 0x608000012140> cleaning up IDE session ready for test plan
+00:02:34.151 Xcode[3084:352963] Starting test plan, clearing initialization timeout timer.
+00:02:34.151 XCTRunner[8320:941287] Initializing for UI testing.
+00:02:34.153 XCTRunner[8320:941287] <XCTWaiter: 0x60000001b930> entering wait loop for 20.00s
+00:02:34.154 testmanagerd[8010:941366] Performing block with diagnostics...
+00:02:34.155 testmanagerd[8010:941366] Waiting 15.0s for AX to finish loading...
+00:02:34.158 testmanagerd[8010:941366] _AXSApplicationAccessibilityEnabled() returned false
+00:02:34.461 testmanagerd[8010:938459] AX is loaded
+00:02:34.462 testmanagerd[8010:941366] AXDisableAccessibilityOnTermination() returned 0
+00:02:34.463 testmanagerd[8010:941366] Created system wide AX element <AXUIElement 0x7f82ec714f30> {pid=0}
+00:02:34.465 testmanagerd[8010:941366] Registered for accessibility notification 1021
+00:02:34.465 testmanagerd[8010:941366] Registered for accessibility notification 1000
+00:02:34.468 testmanagerd[8010:941366] Registered for accessibility notification 1005
+00:02:34.469 testmanagerd[8010:941366] Registered for accessibility notification 1001
+00:02:34.470 testmanagerd[8010:941366] Registered for accessibility notification 1011
+00:02:34.471 testmanagerd[8010:941366] Registered for accessibility notification 4002
+00:02:34.472 testmanagerd[8010:941366] Registered for accessibility notification 4000
+00:02:34.473 testmanagerd[8010:941366] Registered for accessibility notification 4001
+00:02:34.475 testmanagerd[8010:941366] Registered for accessibility notification 5000
+00:02:34.477 testmanagerd[8010:941366] Block succeeded, canceling diagnostics.
+00:02:34.725 XCTRunner[8320:941371] <XCTWaiter: 0x60000001b930>: cancelWaiting
+00:02:34.726 XCTRunner[8320:941287] <XCTWaiter: 0x60000001b930> done waiting
+00:02:34.726 XCTRunner[8320:941287] <XCTWaiter: 0x60000001b930> cleaning up Expect predicate `BLOCKPREDICATE(0x6080002400f0)` for object BLOCKPREDICATE(0x6080002400f0)
+00:02:34.728 testmanagerd[8010:941366] AXUIElementSetMessagingTimeout(<AXUIElement 0x7f82ec714f30> {pid=0}, 15) -> 0 
+00:02:34.729 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c310> entering wait loop for 15.00s
+00:02:34.741 testmanagerd[8010:939155] -[XCTDaemon allowUITestControlForPID:] 8320 vs 8320
+00:02:34.742 testmanagerd[8010:939155] Registered for AX notification 4002
+00:02:34.743 testmanagerd[8010:941366] -[XCTDaemon allowUITestControlForPID:] 8320 vs 8320
+00:02:34.743 testmanagerd[8010:941366] Registered for AX notification 1006
+00:02:34.745 testmanagerd[8010:941366] -[XCTDaemon allowUITestControlForPID:] 8320 vs 8320
+00:02:34.745 testmanagerd[8010:941366] Registered for AX notification 1021
+00:02:34.740 XCTRunner[8320:941371] <XCTWaiter: 0x60000001c310>: cancelWaiting
+00:02:34.747 testmanagerd[8010:939153] Got request for process assertion for pid 8320.
+00:02:34.740 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c310> done waiting
+00:02:34.747 testmanagerd[8010:939153] Invalidating previous process assertion for pid 8320.
+00:02:34.748 testmanagerd[8010:939153] Created process assertion for pid 8320: <BKSProcessAssertion: 0x7f82ec6098a0>, waiting for response from assertiond.
+00:02:34.741 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c310> cleaning up Expect predicate `BLOCKPREDICATE(0x600000246600)` for object BLOCKPREDICATE(0x600000246600)
+00:02:34.741 XCTRunner[8320:941287] <XCTWaiter: 0x608000012390> entering wait loop for 15.00s
+00:02:34.742 XCTRunner[8320:941347] <XCTWaiter: 0x608000012390>: cancelWaiting
+00:02:34.742 XCTRunner[8320:941287] <XCTWaiter: 0x608000012390> done waiting
+00:02:34.742 XCTRunner[8320:941287] <XCTWaiter: 0x608000012390> cleaning up Expect predicate `BLOCKPREDICATE(0x600000245520)` for object BLOCKPREDICATE(0x600000245520)
+00:02:34.743 XCTRunner[8320:941287] <XCTWaiter: 0x608000012910> entering wait loop for 15.00s
+00:02:34.744 XCTRunner[8320:941371] <XCTWaiter: 0x608000012910>: cancelWaiting
+00:02:34.744 XCTRunner[8320:941287] <XCTWaiter: 0x608000012910> done waiting
+00:02:34.744 XCTRunner[8320:941287] <XCTWaiter: 0x608000012910> cleaning up Expect predicate `BLOCKPREDICATE(0x600000244e90)` for object BLOCKPREDICATE(0x600000244e90)
+00:02:34.745 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c540> entering wait loop for 15.00s
+00:02:34.746 XCTRunner[8320:941347] <XCTWaiter: 0x60000001c540>: cancelWaiting
+00:02:34.751 testmanagerd[8010:941425] Got reply for process assertion request, success: YES
+00:02:34.746 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c540> done waiting
+00:02:34.746 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c540> cleaning up Expect predicate `BLOCKPREDICATE(0x600000241f20)` for object BLOCKPREDICATE(0x600000241f20)
+00:02:34.747 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c5c0> entering wait loop for 30.00s
+00:02:34.751 XCTRunner[8320:941347] Got reply for background assertion for test process, acquired: YES.
+00:02:34.751 XCTRunner[8320:941347] <XCTWaiter: 0x60000001c5c0>: cancelWaiting
+00:02:34.752 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c5c0> done waiting
+00:02:34.752 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c5c0> cleaning up Expect predicate `BLOCKPREDICATE(0x600000244590)` for object BLOCKPREDICATE(0x600000244590)
+00:02:34.752 XCTRunner[8320:941287] Registering for UIApplicationDidEnterBackgroundNotification
+00:02:34.752 XCTRunner[8320:941287] Hitting home button to enter background.
+00:02:34.754 testmanagerd[8010:941425] -[XCTDaemon allowUITestControlForPID:] 8320 vs 8320
+00:02:34.754 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c5c0> entering wait loop for 30.00s
+00:02:34.755 testmanagerd[8010:941425] Performing <XCDeviceEvent:0x7f82ec714390 page 12 usage 64 duration 0.01s
+00:02:34.758 testmanagerd[8010:941367] Sleeping for 0.005000s before sending up event
+00:02:34.764 testmanagerd[8010:941367] Waiting for device event confirmation.
+00:02:35.249 testmanagerd[8010:938459] AX Notification 4002
+00:02:35.250 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:02:35.250 testmanagerd[8010:938459] AX Notification 1000
+00:02:35.251 testmanagerd[8010:938459] AX Notification 4002
+00:02:35.252 testmanagerd[8010:938459] Got user testing notification with payload {
+    event = ButtonEventsCompleted;
+}
+00:02:35.252 testmanagerd[8010:938459] Signaling device event confirmed by AX notification.
+00:02:35.253 testmanagerd[8010:941367] Gesture complete, replying to client.
+00:02:35.251 XCTRunner[8320:941347] Got AX notification 4002
+00:02:35.252 XCTRunner[8320:941347] Got AX notification 4002
+00:02:35.253 XCTRunner[8320:941433] <XCTWaiter: 0x60000001c5c0>: cancelWaiting
+00:02:35.253 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c5c0> done waiting
+00:02:35.253 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c5c0> cleaning up Expect predicate `BLOCKPREDICATE(0x608000244350)` for object BLOCKPREDICATE(0x608000244350)
+00:02:35.253 XCTRunner[8320:941287] <XCTWaiter: 0x608000012a20> entering wait loop for 30.00s
+00:02:35.279 XCTRunner[8320:941372] Got AX notification 4002
+00:02:35.254 testmanagerd[8010:938459] AX Notification 4002
+00:02:35.279 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidAppear;
+}
+00:02:35.666 XCTRunner[8320:941287] Got UIApplicationDidEnterBackgroundNotification
+00:02:35.666 XCTRunner[8320:941433] <XCTWaiter: 0x608000012a20>: cancelWaiting
+00:02:35.682 testmanagerd[8010:941381] Got application state update: com.apple.test.JSON_to_dictUITests-Runner (8320) -> 4
+00:02:35.780 XCTRunner[8320:941372] Got AX notification 4002
+00:02:35.778 testmanagerd[8010:938459] AX Notification 4002
+00:02:35.781 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBAppContainerViewController;
+    event = ViewDidDisappear;
+}
+00:02:35.786 testmanagerd[8010:938459] AX Notification 1021
+00:02:35.787 XCTRunner[8320:941372] Got AX notification 1021
+00:02:35.789 XCTRunner[8320:941372] Got kAXPidStatusChangedNotification for 8320: suspended
+00:02:35.787 testmanagerd[8010:938459] AX Notification 4002
+00:02:35.790 XCTRunner[8320:941372] Got AX notification 4002
+00:02:35.790 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:02:35.829 XCTRunner[8320:941287] <XCTWaiter: 0x608000012a20> done waiting
+00:02:35.829 XCTRunner[8320:941287] <XCTWaiter: 0x608000012a20> cleaning up Expect predicate `BLOCKPREDICATE(0x600000244200)` for object BLOCKPREDICATE(0x600000244200)
+00:02:35.829 XCTRunner[8320:941287] Done initializing for UI testing.
+00:02:35.829 XCTRunner[8320:941287] Loading test suite...
+00:02:35.895 XCTRunner[8320:941287] Finished loading test suite, took 0.065s
+00:02:35.895 XCTRunner[8320:941287] -[XCTRunnerIDESession testBundleWillStart:]
+00:02:35.896 XCTRunner[8320:941287] Running suite...
+00:02:35.897 XCTRunner[8320:941287] -[XCTRunnerIDESession testSuiteWillStart:]
+2017-08-21 00:02:33.408 XCTRunner[8320:941287] Running tests...
+2017-08-21 00:02:35.173 XCTRunner[8320:941287] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2017-08-21 00:02:35.896
+Test Suite 'JSON_to_dictUITests.xctest' started at 2017-08-21 00:02:35.898
+00:02:35.898 Xcode[3084:352963] _XCT_testSuite:All tests didStartAt:2017-08-20 23:02:35 +0000
+00:02:38.899 Xcode[3084:939482] (LOG ARBITER) Rotating message buffer with 221 messages.
+00:02:42.446 Xcode[3084:938357] (LOG ARBITER) Rotating message buffer with 176 messages.
+00:02:45.024 Xcode[3084:939964] (LOG ARBITER) Dumping buffered message data; 397 messages.
+00:02:45.027 Xcode[3084:939964] (LOG ARBITER) Rotating message buffer with 73 messages.
+00:02:43.553 testmanagerd[8010:938459] AX Notification 5000
+00:02:43.556 testmanagerd[8010:938459] AX Notification 1021
+00:02:43.558 testmanagerd[8010:938459] AX Notification 1021
+00:02:43.557 XCTRunner[8320:941347] Got AX notification 1021
+00:02:43.557 XCTRunner[8320:941347] Got kAXPidStatusChangedNotification for 8334: active
+00:02:43.558 XCTRunner[8320:941424] Got AX notification 1021
+00:02:43.558 XCTRunner[8320:941424] Got kAXPidStatusChangedNotification for 8334: active
+00:02:43.608 testmanagerd[8010:941381] 10 retries communicating with AX server
+00:02:43.609 testmanagerd[8010:941381] Performed AXAction 2043 for pid 8334
+00:02:43.610 testmanagerd[8010:941381] -[XCTDaemon allowUITestControlForPID:] 8320 vs 8320
+00:02:43.611 testmanagerd[8010:941381] Got AXElement for <XCAccessibilityElement: 0x7f82ec50c080> Device element: <AXUIElement 0x7f82ec50dbc0> {pid=8334}
+00:02:43.704 testmanagerd[8010:938459] AX Notification 4002
+00:02:43.705 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = "JSON_to_dict.ViewController";
+    event = ViewDidAppear;
+}
+00:02:43.705 testmanagerd[8010:938459] AX Notification 4002
+00:02:43.706 testmanagerd[8010:941381] Performed AXAction 2042 for pid 8334
+00:02:43.705 XCTRunner[8320:941424] Got AX notification 4002
+00:02:43.706 XCTRunner[8320:941424] Got AX notification 4002
+00:02:43.706 XCTRunner[8320:941424] Got animations reply.
+00:02:43.706 XCTRunner[8320:941424] Animations are not active.
+00:02:43.707 XCTRunner[8320:941424] <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)> hasReceivedAnimationsHaveFinished 0 -> 1
+00:02:43.707 XCTRunner[8320:941424] <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)> animationsHaveFinished 0 -> 1
+00:02:43.706 testmanagerd[8010:938459] Got user testing notification with payload {
+    event = AnimationsNonActive;
+}
+00:02:43.711 testmanagerd[8010:938459] AX Notification 4002
+00:02:43.712 XCTRunner[8320:941350] Got AX notification 4002
+00:02:43.712 XCTRunner[8320:941350] Got event loop idle reply.
+00:02:43.712 XCTRunner[8320:941350] Event loop is idle.
+00:02:43.712 XCTRunner[8320:941350] <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)> hasReceivedEventLoopHasIdled 0 -> 1
+00:02:43.712 XCTRunner[8320:941350] <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)> eventLoopHasIdled 0 -> 1
+00:02:43.713 XCTRunner[8320:941424] <XCTWaiter: 0x60000001d210>: cancelWaiting
+00:02:43.713 XCTRunner[8320:941287] <XCTWaiter: 0x60000001d210> done waiting
+00:02:43.713 XCTRunner[8320:941287] <XCTWaiter: 0x60000001d210> cleaning up Expect predicate `BLOCKPREDICATE(0x60000005eab0)` for object BLOCKPREDICATE(0x60000005eab0)
+00:02:43.713 XCTRunner[8320:941287] Waiting on quiescence reply indicators
+00:02:43.713 XCTRunner[8320:941287] <XCTWaiter: 0x6080000134e0> entering wait loop for 60.00s
+00:02:43.712 testmanagerd[8010:938459] Got user testing notification with payload {
+    event = RunLoopIsIdle;
+}
+00:02:43.814 XCTRunner[8320:941347] <XCTWaiter: 0x6080000134e0>: cancelWaiting
+00:02:43.814 XCTRunner[8320:941287] <XCTWaiter: 0x6080000134e0> done waiting
+00:02:43.814 XCTRunner[8320:941287] <XCTWaiter: 0x6080000134e0> cleaning up Expect predicate `BLOCKPREDICATE(0x608000246300)` for object BLOCKPREDICATE(0x608000246300)
+00:02:43.814 XCTRunner[8320:941287] App has quiesced or quiescence timeout has elapsed.
+00:02:43.814 XCTRunner[8320:941287] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000000af780> 2017-08-20 23:02:41 +0000: Wait for app to idle (2.47425s)
+00:02:43.816 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity F6E9C95C-1C4F-494A-8F52-9274C6D85D6C:'Wait for app to idle'
+00:02:43.815 XCTRunner[8320:941287] Delaying 1s to mitigate rdar://problem/29883788 & <rdar://problem/23764033> UI tests failing in sim because splash screen is occluding the elements that the tests are trying to interact with
+00:02:44.010 testmanagerd[8010:938459] AX Notification 4002
+00:02:44.012 XCTRunner[8320:941433] Got AX notification 4002
+00:02:44.012 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:02:44.013 testmanagerd[8010:938459] AX Notification 4002
+00:02:44.014 XCTRunner[8320:941347] Got AX notification 4002
+00:02:44.014 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+00:02:44.014 testmanagerd[8010:938459] AX Notification 1000
+00:02:44.015 testmanagerd[8010:938459] AX Notification 4002
+00:02:44.016 XCTRunner[8320:941347] Got AX notification 4002
+00:02:44.016 testmanagerd[8010:938459] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+00:02:44.520 testmanagerd[8010:938459] AX Notification 1011
+00:02:44.816 XCTRunner[8320:941287] done launching and has quiesced
+00:02:44.816 XCTRunner[8320:941287] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6080000ad680> 2017-08-20 23:02:35 +0000: Launch uk.co.training.JSON-to-dict (8.90105s)
+00:02:44.819 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity 3D448162-691D-4663-A2B7-5BC3101D7784:'Launch uk.co.training.JSON-to-dict'
+00:02:44.817 XCTRunner[8320:941287] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000000adc80> 2017-08-20 23:02:35 +0000: Set Up (8.91149s)
+00:02:44.821 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity 2C35AA82-DA84-455F-96E2-FC18FC10AF84:'Set Up'
+00:02:44.818 XCTRunner[8320:941287] -[JSON_to_dictUITests testExample] started activity <XCActivityRecord: 0x6000000adc80> 2017-08-20 23:02:44 +0000: Tear Down
+00:02:44.821 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] will start activity 58F2EDFC-4559-47B6-B56B-63C855360672:'Tear Down'
+00:02:44.818 XCTRunner[8320:941287] -[JSON_to_dictUITests testExample] finished activity <XCActivityRecord: 0x6000000adc80> 2017-08-20 23:02:44 +0000: Tear Down (0.000317991s)
+00:02:44.821 Xcode[3084:352963] -[JSON_to_dictUITests.JSON_to_dictUITests testExample] did finish activity 58F2EDFC-4559-47B6-B56B-63C855360672:'Tear Down'
+00:02:44.819 XCTRunner[8320:941347] Monitor: termination is being tracked for <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)>
+00:02:44.820 XCTRunner[8320:941287] Monitor: waiting for state changes to launched application(s): <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)>
+00:02:44.820 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c740> entering wait loop for 0.20s
+00:02:45.022 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c740> done waiting
+00:02:45.022 XCTRunner[8320:941287] <XCTWaiter: 0x60000001c740> cleaning up Expect change to state of <XCUIApplicationProcess: 0x6080000acc60 uk.co.training.JSON-to-dict (8334)>
+00:02:45.022 XCTRunner[8320:941287] Monitor: done waiting for state changes to launched application(s)
+00:02:45.022 XCTRunner[8320:941287] -[XCTRunnerIDESession testCaseDidFinish:]
+00:02:45.024 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:JSON_to_dictUITests.JSON_to_dictUITests method:testExample withStatus:passed duration:9.122440993785858
+    t =     0.00s     Start Test at 2017-08-21 00:02:35.900
+    t =     0.01s     Set Up
+    t =     0.01s         Launch uk.co.training.JSON-to-dict
+    t =     5.23s             Waiting for accessibility to load
+    t =     5.44s             Wait for app to idle
+    t =     8.92s     Tear Down
+Test Case '-[JSON_to_dictUITests.JSON_to_dictUITests testExample]' passed (9.122 seconds).
+Test Suite 'JSON_to_dictUITests' passed at 2017-08-21 00:02:45.023.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.122 (9.125) seconds
+Test Suite 'JSON_to_dictUITests.xctest' passed at 2017-08-21 00:02:45.025.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.122 (9.127) seconds
+00:02:45.024 XCTRunner[8320:941287] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:02:45.027 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictUITests didFinishAt:2017-08-20 23:02:45 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:9.122440993785858 totalDuration:9.1251540184021
+00:02:45.025 XCTRunner[8320:941287] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:02:45.027 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictUITests.xctest didFinishAt:2017-08-20 23:02:45 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:9.122440993785858 totalDuration:9.127299010753632
+00:02:45.026 XCTRunner[8320:941287] -[XCTRunnerIDESession testSuiteDidFinish:]
+00:02:45.027 Xcode[3084:352963] _XCT_testSuite:All tests didFinishAt:2017-08-20 23:02:45 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:9.122440993785858 totalDuration:9.128998041152954
+00:02:45.026 XCTRunner[8320:941287] Finished running suite.
+00:02:45.027 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+00:02:45.026 XCTRunner[8320:941287] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+00:02:45.027 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.028 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.029 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.029 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.029 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.041 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.041 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.041 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.080 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.108 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+00:02:45.137 Xcode[3084:352963] <IDEExecutionOperationTracker: 0x7ff0b752ef00: Launch application uk.co.training.JSON-to-dict for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7ff0b740b490: subtrackers=none>"
+)> is not finished
+Test Suite 'All tests' passed at 2017-08-21 00:02:45.025.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.122 (9.129) seconds
+00:02:45.182 Xcode[3084:352963] Observed termination of tracker for token 7 for launch of uk.co.training.JSON-to-dict at /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app
+00:02:45.183 Xcode[3084:352963] _finishWithError:(null) didCancel: 0

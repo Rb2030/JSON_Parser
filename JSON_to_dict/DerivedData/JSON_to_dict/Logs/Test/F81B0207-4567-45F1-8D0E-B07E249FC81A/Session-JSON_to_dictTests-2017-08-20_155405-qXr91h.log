@@ -1,0 +1,322 @@
+15:54:05.351 Xcode[3084:352963] Beginning test session JSON_to_dictTests-B88E2862-6DBF-49ED-B4ED-900F68CC6BE2 at 2017-08-20 15:54:05.351 with Xcode 8E3004b on target <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3.1 (14E8301))
+15:54:05.351 Xcode[3084:352963] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+15:54:05.352 Xcode[3084:705207] Sim iPhone 7 Plus: Unregistering for sim device notification with token 13
+15:54:05.352 Xcode[3084:705207] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+15:54:05.352 Xcode[3084:705207] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.opGFRYJcsp/com.apple.testmanagerd.unix-domain.socket
+15:54:05.352 Xcode[3084:705207] Validating test connection socket path (/private/tmp/com.apple.launchd.opGFRYJcsp/com.apple.testmanagerd.unix-domain.socket)
+15:54:05.352 Xcode[3084:705207] Constructing transport for test connection socket
+15:54:05.352 Xcode[3084:705207] Connected socket 81 to testmanagerd for Sim iPhone 7 Plus
+15:54:05.353 Xcode[3084:710375] Received connection for test runner session
+15:54:05.353 Xcode[3084:710375] Listening for proxy connection request from the test bundle
+15:54:05.353 Xcode[3084:710375] Initiating session with identifier: B88E2862-6DBF-49ED-B4ED-900F68CC6BE2
+15:54:05.363 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:05.363 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b482edc0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:05.363 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:05.363 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b4edec50 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:05.367 Xcode[3084:352963] Test runner session acquired connection.
+15:54:05.367 Xcode[3084:352963] Waiting for test process to launch.
+15:54:06.320 Xcode[3084:705246] Got reply to session initiation request with identifier B88E2862-6DBF-49ED-B4ED-900F68CC6BE2 (result:error): 22: (null)
+15:54:12.174 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:12.175 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b69bd000 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:12.181 Xcode[3084:710661] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 14
+15:54:12.181 Xcode[3084:711197] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 14
+15:54:12.182 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:12.182 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b6b0c560 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:12.183 Xcode[3084:710666] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dictUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.JSON_to_dictUITests-Runner";
+}
+15:54:16.892 Xcode[3084:710666] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dictUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.JSON_to_dictUITests-Runner";
+}
+15:54:16.893 Xcode[3084:710666] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: com.apple.test.JSON_to_dictUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/B80D471B-937F-4E66-9364-02D2ADA3E7D3/remote-container/tmp/JSON_to_dictUITests-B80D471B-937F-4E66-9364-02D2ADA3E7D3.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 1;
+}
+15:54:16.929 Xcode[3084:710640] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: com.apple.test.JSON_to_dictUITests-Runner (pid = 6774)
+15:54:16.929 Xcode[3084:710640] Tracking pid 6774 for simulator <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+15:54:16.929 Xcode[3084:710640] Checking to see if pid 6774 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:54:16.930 Xcode[3084:710640] Setting up DVTTaskNotifyOnProcDeath for pid 6774
+15:54:20.818 Xcode[3084:710373] Checking to see if pid 6774 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:54:20.824 Xcode[3084:710640] Checking to see if pid 6774 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:54:20.824 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:20.824 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b4f69380 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:20.828 Xcode[3084:710640] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 16
+15:54:20.829 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:20.829 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b680b2a0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:20.830 Xcode[3084:710661] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 16
+15:54:20.830 Xcode[3084:705246] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app and options: {
+    CFBundleIdentifier = "uk.co.training.JSON-to-dict";
+}
+15:54:25.525 Xcode[3084:705246] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app and options: {
+    CFBundleIdentifier = "uk.co.training.JSON-to-dict";
+}
+15:54:25.526 Xcode[3084:705246] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: uk.co.training.JSON-to-dict and options: {
+    arguments =     (
+    );
+    environment =     {
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_MODE" = info;
+    };
+    stderr = "/dev/ttys005";
+    stdout = "/dev/ttys005";
+    "wait_for_debugger" = 1;
+}
+15:54:25.567 Xcode[3084:710482] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: uk.co.training.JSON-to-dict (pid = 6786)
+15:54:25.567 Xcode[3084:710482] Tracking pid 6786 for simulator <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+15:54:25.567 Xcode[3084:710482] Checking to see if pid 6774 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:54:25.567 Xcode[3084:710482] Checking to see if pid 6786 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:54:25.567 Xcode[3084:710482] Setting up DVTTaskNotifyOnProcDeath for pid 6786
+15:54:29.803 Xcode[3084:352963] Got death notice for pid 6774, removing from SimulatorSessionMap
+15:54:29.803 Xcode[3084:352963] Checking to see if pid 6786 is valid: kill(pid, 0) = -1 (NO, it's dead)
+15:54:29.803 Xcode[3084:352963] Removing 6786 (dead) from SimulatorSessionMap
+15:54:29.803 Xcode[3084:352963] Got death notice for pid 6786, removing from SimulatorSessionMap
+15:54:29.895 Xcode[3084:352963] Launch session started.
+15:54:29.924 Xcode[3084:352963] Adding console adaptor <IDEConsoleAdaptor: 0x7ff0b6a522d0 'target'> for test session B88E2862-6DBF-49ED-B4ED-900F68CC6BE2.
+15:54:29.924 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:29.924 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b2f8c110 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:29.927 Xcode[3084:712065] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Registered for sim device notification, got token 17
+15:54:29.927 Xcode[3084:710663] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Unregistering for sim device notification with token 17
+15:54:29.931 Xcode[3084:705246] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installing app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app and options: {
+    CFBundleIdentifier = "uk.co.training.JSON-to-dict";
+}
+15:54:29.940 Xcode[3084:352963] Received Ready from iOSSimulator
+15:54:29.940 Xcode[3084:352963] Sending notification: NSConcreteNotification 0x7ff0b6a382a0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+}}
+15:54:34.622 Xcode[3084:705246] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Installed app at path: /Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app and options: {
+    CFBundleIdentifier = "uk.co.training.JSON-to-dict";
+}
+15:54:34.623 Xcode[3084:705246] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launching app with identifier: uk.co.training.JSON-to-dict and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app/JSON_to_dict";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/B88E2862-6DBF-49ED-B4ED-900F68CC6BE2/remote-container/tmp/JSON_to_dictTests-B88E2862-6DBF-49ED-B4ED-900F68CC6BE2.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 1;
+}
+15:54:34.658 Xcode[3084:710373] F27E23E5-56B5-4944-8777-32EE4BAD50CD: Launched app with identifier: uk.co.training.JSON-to-dict (pid = 6792)
+15:54:34.658 Xcode[3084:710373] Tracking pid 6792 for simulator <DVTiPhoneSimulator: 0x7ff0adad1910> {
+		SimDevice: SimDevice : iPhone 7 Plus (F27E23E5-56B5-4944-8777-32EE4BAD50CD) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3.1 (14E8301) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+15:54:34.658 Xcode[3084:710373] Checking to see if pid 6792 is valid: kill(pid, 0) = 0 (YES, it's still running)
+15:54:34.659 Xcode[3084:710373] Setting up DVTTaskNotifyOnProcDeath for pid 6792
+15:54:34.659 Xcode[3084:352963] Test process runnable PID is 6792.
+15:54:36.374 Xcode[3084:352963] Waiting for test process to check in..., will wait up to 120s
+15:54:36.998 Xcode[3084:710707] Handling proxy channel request from test runner
+15:54:36.998 Xcode[3084:710707] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+15:54:36.998 Xcode[3084:352963] Test runner session successfully initiated.
+15:54:36.998 Xcode[3084:352963] Creating the daemon control session.
+15:54:36.999 Xcode[3084:352963] Whitelisting test process ID 6792
+15:54:36.999 Xcode[3084:352963] Got authorization request for pid 6792
+15:54:37.000 Xcode[3084:710663] Requesting authorization for pid 6792
+15:54:37.007 Xcode[3084:710707] Got reply to authorization request for pid 6792 (result:error): 22: (null)
+15:54:37.007 Xcode[3084:352963] Got whitelisting response from test daemon. Success: 1
+15:54:37.008 testmanagerd[6520:710486] Received request to collect crash reports in directories '/Users/Ross/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'JSON_to_dict', 'xctest'
+15:54:37.010 testmanagerd[6520:710486] Initializing crash report observer for /Users/Ross/Library/Logs/DiagnosticReports
+15:54:37.010 testmanagerd[6520:710486] Getting files in /Users/Ross/Library/Logs/DiagnosticReports
+15:54:37.011 testmanagerd[6520:710486] Found 17 files in /Users/Ross/Library/Logs/DiagnosticReports
+15:54:37.012 testmanagerd[6520:710486] Started monitoring /Users/Ross/Library/Logs/DiagnosticReports
+15:54:37.013 testmanagerd[6520:710486] Initializing crash report observer for /Library/Logs/DiagnosticReports
+15:54:37.013 testmanagerd[6520:710486] Getting files in /Library/Logs/DiagnosticReports
+15:54:37.014 testmanagerd[6520:710486] Found 42 files in /Library/Logs/DiagnosticReports
+15:54:37.015 testmanagerd[6520:710486] Started monitoring /Library/Logs/DiagnosticReports
+15:54:36.673 JSON_to_dict[6792:712393] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0833(8E3002), modified on Thursday, May 11, 2017 at 6:10:51 AM British Summer Time
+15:54:36.674 JSON_to_dict[6792:712393] XCTest.framework bundle version: 12124
+15:54:36.675 JSON_to_dict[6792:712393] System uptime: 18:08:41
+15:54:36.675 JSON_to_dict[6792:712393] Process arguments: (
+    "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Bundle/Application/64D512D2-38F5-4B16-BE1E-FC5F7CDD13F4/JSON_to_dict.app/JSON_to_dict",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+15:54:36.675 JSON_to_dict[6792:712393] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/818E5158-11E7-4F39-8E56-1C428555F512";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.IRAVKf6cLX/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/818E5158-11E7-4F39-8E56-1C428555F512";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "IPHONE_SIMULATOR_CLASS" = D11;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/Ross";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/Ross/Library/Logs/CoreSimulator/F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D11;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E8301;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data";
+    "SIMULATOR_UDID" = "F27E23E5-56B5-4944-8777-32EE4BAD50CD";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 7 Plus - Runtime: iOS 10.3 (14E8301) - DeviceType: iPhone 7 Plus";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.opGFRYJcsp/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/Ross/Library/Developer/CoreSimulator/Devices/F27E23E5-56B5-4944-8777-32EE4BAD50CD/data/Containers/Data/Application/818E5158-11E7-4F39-8E56-1C428555F512/tmp";
+    XCInjectBundleInto = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator/JSON_to_dict.app/JSON_to_dict";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/2z/5tlnk44n39v1k1xknyrz6z0r0000gn/T/com.apple.dt.XCTest/B88E2862-6DBF-49ED-B4ED-900F68CC6BE2/remote-container/tmp/JSON_to_dictTests-B88E2862-6DBF-49ED-B4ED-900F68CC6BE2.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:uk.co.training.JSON-to-dict[0x3416][6179]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.F27E23E5-56B5-4944-8777-32EE4BAD50CD.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/DerivedData/JSON_to_dict/Build/Products/Debug-iphonesimulator";
+}
+15:54:36.676 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000b4f0> entering wait loop for 5.00s
+15:54:36.730 JSON_to_dict[6792:712435] Got daemon protocol version 12
+15:54:36.730 JSON_to_dict[6792:712446] <XCTWaiter: 0x60000000b4f0>: cancelWaiting
+15:54:36.885 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000b4f0> done waiting
+15:54:36.885 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000b4f0> cleaning up Exchange protocol versions with daemon
+15:54:36.886 JSON_to_dict[6792:712393] Requesting socket
+15:54:36.886 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000bf20> entering wait loop for 30.00s
+15:54:36.996 JSON_to_dict[6792:712446] <XCTWaiter: 0x60000000bf20>: cancelWaiting
+15:54:36.996 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000bf20> done waiting
+15:54:36.996 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000bf20> cleaning up Socket for IDE session acquired
+15:54:36.997 JSON_to_dict[6792:712393] Creating transport with socket 7
+15:54:36.997 JSON_to_dict[6792:712393] Creating connection with transport <DTXSocketTransport: 0x60000011c950>
+15:54:36.997 JSON_to_dict[6792:712393] Creating the proxy channel with connection <DTXConnection 0x6000001e6400 : x1>
+15:54:36.998 JSON_to_dict[6792:712393] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+15:54:36.998 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000c120> entering wait loop for 30.00s
+15:54:36.999 JSON_to_dict[6792:712445] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+15:54:37.016 JSON_to_dict[6792:712447] _IDE_startExecutingTestPlanWithProtocolVersion:22
+15:54:37.017 JSON_to_dict[6792:712447] <XCTWaiter: 0x60000000c120>: cancelWaiting
+15:54:37.017 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000c120> done waiting
+15:54:37.017 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000c120> cleaning up IDE session ready for test plan
+15:54:37.020 Xcode[3084:352963] Starting test plan, clearing initialization timeout timer.
+15:54:37.085 testmanagerd[6520:710486] AX Notification 4002
+15:54:37.087 testmanagerd[6520:710486] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+15:54:37.091 testmanagerd[6520:710486] AX Notification 4002
+15:54:37.020 JSON_to_dict[6792:712393] Loading test suite...
+15:54:37.094 testmanagerd[6520:710486] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+15:54:37.109 JSON_to_dict[6792:712393] Finished loading test suite, took 0.089s
+15:54:37.109 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testBundleWillStart:]
+15:54:37.109 JSON_to_dict[6792:712393] Running suite...
+15:54:37.110 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testSuiteWillStart:]
+15:54:37.110 Xcode[3084:352963] _XCT_testSuite:All tests didStartAt:2017-08-20 14:54:37 +0000
+15:54:37.111 Xcode[3084:710707] (LOG ARBITER) Rotating message buffer with 3 messages.
+15:54:37.114 Xcode[3084:712280] (LOG ARBITER) Dumping buffered message data; 3 messages.
+15:54:37.376 Xcode[3084:712464] (LOG ARBITER) Dumping buffered message data; 0 messages.
+15:54:37.111 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictTests didStartAt:2017-08-20 14:54:37 +0000
+15:54:37.111 Xcode[3084:352963] _XCT_testCaseDidStartForTestClass:JSON_to_dictTests.JSON_to_dictTests method:testExample
+Test Suite 'JSON_to_dictTests' started at 2017-08-20 15:54:37.110
+15:54:37.110 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testSuiteWillStart:]
+15:54:37.110 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testSuiteWillStart:]
+15:54:37.111 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testCaseWillStart:] JSON_to_dictTests.JSON_to_dictTests testExample
+Test Case '-[JSON_to_dictTests.JSON_to_dictTests testExample]' started.
+15:54:37.112 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testCaseDidFinish:]
+15:54:37.114 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:JSON_to_dictTests.JSON_to_dictTests method:testExample withStatus:passed duration:0.001483023166656494
+15:54:37.113 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testCaseWillStart:] JSON_to_dictTests.JSON_to_dictTests testPerformanceExample
+15:54:37.114 Xcode[3084:352963] _XCT_testCaseDidStartForTestClass:JSON_to_dictTests.JSON_to_dictTests method:testPerformanceExample
+Test Case '-[JSON_to_dictTests.JSON_to_dictTests testExample]' passed (0.001 seconds).
+15:54:37.101 testmanagerd[6520:710486] AX Notification 1000
+15:54:37.109 testmanagerd[6520:710486] AX Notification 4002
+15:54:37.125 testmanagerd[6520:710486] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+Test Case '-[JSON_to_dictTests.JSON_to_dictTests testPerformanceExample]' started.
+15:54:37.374 JSON_to_dict[6792:712393] -[XCTRunnerIDESession _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+15:54:37.375 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_testMethod:ofClass:didMeasureMetric:file:line:]_block_invoke
+/Users/Ross/Desktop/Swift_Work/JSON_to_dict/JSON_to_dictTests/JSON_to_dictTests.swift:33: Test Case '-[JSON_to_dictTests.JSON_to_dictTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 129.479%, values: [0.000005, 0.000001, 0.000001, 0.000000, 0.000000, 0.000001, 0.000000, 0.000000, 0.000001, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[JSON_to_dictTests.JSON_to_dictTests testPerformanceExample]' passed (0.262 seconds).
+15:54:37.374 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testCaseDidFinish:]
+15:54:37.375 Xcode[3084:352963] _XCT_testCaseDidFinishForTestClass:JSON_to_dictTests.JSON_to_dictTests method:testPerformanceExample withStatus:passed duration:0.2619180083274841
+Test Suite 'JSON_to_dictTests' passed at 2017-08-20 15:54:37.375.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.263 (0.264) seconds
+Test Suite 'JSON_to_dictTests.xctest' passed at 2017-08-20 15:54:37.375.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.263 (0.265) seconds
+15:54:37.375 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:54:37.377 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictTests didFinishAt:2017-08-20 14:54:37 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.2634010314941406 totalDuration:0.2644529938697815
+15:54:37.376 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:54:37.377 Xcode[3084:352963] _XCT_testSuite:JSON_to_dictTests.xctest didFinishAt:2017-08-20 14:54:37 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.2634010314941406 totalDuration:0.2653969526290894
+15:54:37.376 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:54:37.377 Xcode[3084:352963] _XCT_testSuite:All tests didFinishAt:2017-08-20 14:54:37 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.2634010314941406 totalDuration:0.2666879892349243
+15:54:37.376 JSON_to_dict[6792:712393] Finished running suite.
+15:54:37.377 Xcode[3084:352963] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+15:54:37.376 JSON_to_dict[6792:712393] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+15:54:37.377 JSON_to_dict[6792:712393] Calling completion.
+15:54:37.377 JSON_to_dict[6792:712393] <XCTWaiter: 0x60000000c510> entering wait loop for 15.00s
+15:54:37.378 Xcode[3084:352963] _finishWithError:(null) didCancel: 0

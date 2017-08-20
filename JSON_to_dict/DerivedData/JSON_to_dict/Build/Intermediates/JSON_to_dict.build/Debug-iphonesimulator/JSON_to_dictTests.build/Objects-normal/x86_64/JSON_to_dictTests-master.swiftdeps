@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "86a101ab8f4a1afba565f4c2ad0815e7"
+build_time: [556587448, 694374000]
+inputs:
+  "/Users/Ross/Desktop/Swift_Work/JSON_to_dict/JSON_to_dictTests/JSON_to_dictTests.swift": [556555845, 0]

@@ -20,13 +20,13 @@ class ViewController: UIViewController {
             
             let data = try Data(contentsOf: url)
             let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-            //print(json)
+            print(json)
             
             guard let menuDict = json as? [String: Any] else { return }
             //print(menuDict)
             
             guard let drinks = menuDict["drinks"] as? [[String: Any]] else { return }
-            print(drinks)
+            //print(drinks)
         }
         catch {
             print(error)
